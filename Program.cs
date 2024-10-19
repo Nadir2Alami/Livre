@@ -17,9 +17,11 @@ internal class Program
 
         Roman R3 = new Roman("Antigone", "Personn3", 120, "Tragique");
 
+
         R1.AfficherDetails();
         R2.AfficherDetails();
         R3.AfficherDetails();
+
 
 
 
@@ -30,6 +32,11 @@ internal class Program
         livres.Add(R1);
         livres.Add(R2);
         livres.Add(R3);
+        foreach (Livre livre in livres)
+        {
+            livre.AfficherDetails();
+
+        }
         
 
 
