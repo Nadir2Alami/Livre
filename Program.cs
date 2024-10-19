@@ -23,6 +23,21 @@ internal class Program
 
 
 
+        List<Livre> livres = new List<Livre>();
+        livres.Add(revue1);
+        livres.Add(revue2);
+        livres.Add(revue3);
+        livres.Add(R1);
+        livres.Add(R2);
+        livres.Add(R3);
+        
+
+
+
+
+
+
+
 
 
 
